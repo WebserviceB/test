@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(photo/lgmbnw.jpeg) center center / cover no-repeat fixed;
+    padding: 0 5rem;
+}
+
+.header {
+    text-align: center;
+    font-family: fantasy;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-size: 80px;
+    padding-top: 10px;
+    background: linear-gradient(135deg, #6633cc, #9966ff, #99ff00, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top: solid 3px rgb(176, 27, 245);
+    border-bottom: solid 3px rgb(176, 27, 245);
+}
+
+span {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 50px;
+    color: rgb(24, 224, 41);
+    text-align: center;
+    border-top: double 5px gray;
+    border-bottom: double 5px gray;
+    margin: 20px 0px;
+}
+
+.main {
+    font-size: 20px;
+    color: white;
+}
+
+.ritoguri {
+    text-align: center;
+}
+
+.profile-2 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+
+/* .profile-3 {
+    float: left;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 25px;
+} */
+
+.profile-3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile-2 img {
+    /* height: 300px; */
+    width: 90%;
+}
+
+span-6 {
+    color: rgb(236, 120, 236);
+}
+
+span-7 {
+    color: green;
+}
+
+span-8 {
+    color: blue;
+}
+
+span-9 {
+    color: blueviolet;
+}
+
+span-10 {
+    color: yellow;
+}
+
+.twitter {
+    text-align: center;
+    font-size: 30px;
+}
+
+.movie {
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    border-top: solid 2px yellow;
+    border-bottom: solid 2px yellow;
+    font-family: fantasy;
+    padding-top: 5px;
+    margin: 20px 0px;
+}
